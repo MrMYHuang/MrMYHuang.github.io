@@ -1,5 +1,5 @@
 [{
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target" : { "namespace": "android_app", "package_name": "io.github.mrmyhuang.cbetar2",
-                   "sha256_cert_fingerprints": ["68:4F:6C:EF:38:6D:6F:9E:F9:43:45:71:F4:20:54:E6:34:E5:89:D8:CD:4A:7B:72:95:85:1B:7D:EF:02:B8:0A"] }
+                   "sha256_cert_fingerprints": ["DB:85:E2:F6:12:8E:18:30:02:24:5B:BF:B2:4E:4F:CD:6C:69:35:07:5D:49:96:01:35:51:2A:6D:B9:20:81:A5"] }
     }]

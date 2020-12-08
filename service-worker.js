@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.2ab4dd982ee36b2ef96a0aac852d4e25.js"
+  "/precache-manifest.a8601d81b1dd24962e6492fb82f7fbcb.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,7 +35,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
 
 workbox.routing.registerRoute(/.*\.woff/, new workbox.strategies.CacheFirst({ "cacheName":"webfonts", plugins: [] }), 'GET');

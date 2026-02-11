@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lotusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c44536"/>
+      <stop offset="50%" stop-color="#9c4aa4"/>
+      <stop offset="100%" stop-color="#2a6bb3"/>
+    </linearGradient>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" />
+    </filter>
+  </defs>
+  <g fill="none" stroke="url(#lotusGradient)" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+    <path id="petal" d="M450 180 C418 255, 418 352, 450 430 C482 352, 482 255, 450 180 Z"/>
+    <use href="#petal"/>
+    <use href="#petal" transform="rotate(22.5 450 450)"/>
+    <use href="#petal" transform="rotate(45 450 450)"/>
+    <use href="#petal" transform="rotate(67.5 450 450)"/>
+    <use href="#petal" transform="rotate(90 450 450)"/>
+    <use href="#petal" transform="rotate(112.5 450 450)"/>
+    <use href="#petal" transform="rotate(135 450 450)"/>
+    <use href="#petal" transform="rotate(157.5 450 450)"/>
+    <use href="#petal" transform="rotate(180 450 450)"/>
+    <use href="#petal" transform="rotate(202.5 450 450)"/>
+    <use href="#petal" transform="rotate(225 450 450)"/>
+    <use href="#petal" transform="rotate(247.5 450 450)"/>
+    <use href="#petal" transform="rotate(270 450 450)"/>
+    <use href="#petal" transform="rotate(292.5 450 450)"/>
+    <use href="#petal" transform="rotate(315 450 450)"/>
+    <use href="#petal" transform="rotate(337.5 450 450)"/>
+  </g>
+  <g fill="none" stroke="url(#lotusGradient)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.28" transform="translate(450 450) scale(0.74) translate(-450 -450)">
+    <path id="petalInner" d="M450 220 C430 285, 430 350, 450 405 C470 350, 470 285, 450 220 Z"/>
+    <use href="#petalInner"/>
+    <use href="#petalInner" transform="rotate(30 450 450)"/>
+    <use href="#petalInner" transform="rotate(60 450 450)"/>
+    <use href="#petalInner" transform="rotate(90 450 450)"/>
+    <use href="#petalInner" transform="rotate(120 450 450)"/>
+    <use href="#petalInner" transform="rotate(150 450 450)"/>
+    <use href="#petalInner" transform="rotate(180 450 450)"/>
+    <use href="#petalInner" transform="rotate(210 450 450)"/>
+    <use href="#petalInner" transform="rotate(240 450 450)"/>
+    <use href="#petalInner" transform="rotate(270 450 450)"/>
+    <use href="#petalInner" transform="rotate(300 450 450)"/>
+    <use href="#petalInner" transform="rotate(330 450 450)"/>
+  </g>
+  <g fill="none" stroke="url(#lotusGradient)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.22" transform="translate(450 450) scale(0.52) translate(-450 -450)">
+    <path id="petalCore" d="M450 255 C436 300, 436 340, 450 380 C464 340, 464 300, 450 255 Z"/>
+    <use href="#petalCore"/>
+    <use href="#petalCore" transform="rotate(40 450 450)"/>
+    <use href="#petalCore" transform="rotate(80 450 450)"/>
+    <use href="#petalCore" transform="rotate(120 450 450)"/>
+    <use href="#petalCore" transform="rotate(160 450 450)"/>
+    <use href="#petalCore" transform="rotate(200 450 450)"/>
+    <use href="#petalCore" transform="rotate(240 450 450)"/>
+    <use href="#petalCore" transform="rotate(280 450 450)"/>
+    <use href="#petalCore" transform="rotate(320 450 450)"/>
+  </g>
+</svg>
